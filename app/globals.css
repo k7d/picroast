@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fg: #FCDB78;
+  --fgst: rgba(252, 219, 120, 0.5);
+  --bg: #fff;
+}
+
+.fs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100svh;
+}
+
+.fs-container {
+  height: 100svh;
+  max-height: 800px;
+  overflow: hidden;
+  @apply container;
+}
+
+html {
+  @apply bg-default bg-100% fs;
+}
+
+body {
+  height: 100svh;
+  color: var(--fg);
+  @apply fs;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+  @apply font-bold select-none hover:opacity-80 active:opacity-60;
+}
+
+.button-outline {
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, currentColor 50%, transparent);
+  @apply rounded-lg;
+}
+
+.simple-link {
+  @apply underline decoration-[var(--fgst)] hover:decoration-[var(--fg)];
+}
