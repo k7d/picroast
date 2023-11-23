@@ -19,7 +19,7 @@ For visual intructions the flow was pretty straight forward:
 
 Here's some example Whimsical snapshots that were used in the process:
 
-![image](https://github.com/k7d/picroast/assets/181645/95ee556e-8abf-46d9-a71d-e47bb4a8bc45)
+![image](https://github.com/k7d/picroast/assets/181645/8d13643e-7a13-4ca8-a23c-3a40990e773a)
 
 All the bitmap images were also generate using new DALL·E 3 support in GPT-4.
 
